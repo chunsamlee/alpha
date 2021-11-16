@@ -207,13 +207,15 @@ img {
   outline: 0;
 }
 .gnb_inner
-{margin-top: 50px;
+{margin-top: 30px;
 margin-left: 200px;}
 
 .group_nav
 {display:flex;
 flex-direction: row;
-margin-left:30px}
+margin-left:30px;
+padding-bottom : 30px;
+}
 .list_nav{ 
 display:flex;
 flex-direction: row;
@@ -226,7 +228,7 @@ flex-direction: row;
   }
     .content_container{
       width: 1200px;
-      height: 1000px;
+      /* height: 1000px; */
     
       border: 1px solid black;
       display: flex;
@@ -236,7 +238,7 @@ flex-direction: row;
       display: flex;
       flex-direction: row;
       height:200px;
-      border: 1px solid pink;
+      /* border: 1px solid pink; */
       margin: 20px 20px 20px 20px;
     }
     .advertise_1{
@@ -252,9 +254,16 @@ flex-direction: row;
 
     }
     .newsInfo {
-      background-color: green;
-      flex-basis: 70%;
+  display: flex;
+  flex-basis: 70%;
+  position: relative;
+  padding: 12px 15px 11px 15px;
+  background-color: #f7f9fa;
+  border: 1px solid #dae1e6;
+  line-height: 24px;
+      
     }
+
     .issusInfo {
       width: 300px;
       background-color: yellowgreen;
